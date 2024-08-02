@@ -3,7 +3,7 @@
  * tenida en cuenta para cada ejercicio y se basa en los mandamientos del programador. El taller es una 
  * herramienta para comenzar a preparar la evaluación donde los descuentos si van a ser tenidos en cuenta. 
  * Con este taller, usted irá aprendiendo a aplicar buenas prácticas en la programación.
- * 
+ *
  * Al valor que obtenga en la evaluación automática de github, se revisará si cumple con buenas prácticas
  * de acuerdo con la siguiente rúbrica que se descuenta en cada ejercicio y es acumulativa:
  * Descuento por quemar valores en el código y no usar constantes: -0.5
