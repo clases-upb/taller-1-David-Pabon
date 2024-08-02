@@ -27,7 +27,6 @@ public class Taller1 {
      y la convierta a metros/seg y a metros/hora. Retorne un string del tipo: ### m/s - ### m/h. Si hay error, 
      devuelva el string "Error en la conversion"
     */
-    
         public static String Convertir_km_seg(int velocidad_km_s) {
 
         try {
@@ -52,7 +51,6 @@ public class Taller1 {
     /*3. Diseñe un algoritmo e implemente la función Convertir_cm_lt que: reciba una cantidad double expresada en 
     cc (centímetros cúbicos) y devuelva un float con su equivalente en litros. Si hay algún error, retorne 0.
     */
-  
         public static float Convertir_cm_lt(double cc) {
 
         try {
@@ -72,7 +70,6 @@ public class Taller1 {
    y devuelva su equivalente en pesos usando una TRM de $4170 pesos por cada dólar. La función recibe enteros
    y devuelve enteros, pueden ser grandes. Si hay algún error, retorne -1.
    */
-   
         public static int Convertir_us_cops(int dolares) {
         // 1. declaracion de variables
         int pesos = 0;
@@ -93,7 +90,6 @@ public class Taller1 {
    centígrados y la devuelve en grados Fahrenheit (averiguar la fórmula) F = 32 + ( 9 * C / 5). Si hay algún error, 
    retorne 0.
    */
-
         public static float Convertir_cent_far(float Grados_centigrados) {
 
         try {
@@ -114,7 +110,6 @@ public class Taller1 {
    el número de minutos y número segundos como enteros bytes, positivos y devuelva todo en segundos en un entero. 
    Si hay algún error, devuelva -1.
    */
-
         public static int Calcular_segs(short dias, short horas, short min, short seg) {
 
         try {
@@ -144,7 +139,6 @@ public class Taller1 {
    lo que pesa el camión vacío en toneladas, y devuelva el peso neto de la carga en kilos y toneladas 
    en un string del tipo: "### kilos - ### toneladas". 
    Si hay algún error, devuelva en un string "Error en la función Calcular_peso_carga"*/
-
         public static String Calcular_peso_carga(float camion_carga_ton, float camion_vacio_ton) {
 
         try {
@@ -166,7 +160,6 @@ public class Taller1 {
    otro dato short que es la velocidad  promedio que alcanzará también el vehículo en kilómetros/hora.  
    Si hay algún error, devuelva -1.
    */
-
         public static float Calcular_horasxviaje(String horas_destino, short distancia_kms, short velocidad_kh) {
 
         try {
@@ -191,7 +184,6 @@ public class Taller1 {
    de combustible que debe ser cargado en el avión.
    
    Si hay algún error, devuelva -1.*/
-
         public static float Calcular_combustible(int Ruta1, int Ruta2, int Ruta3, int Ruta4) {
 
         try {
@@ -225,7 +217,6 @@ public class Taller1 {
    
    Si hay algún error, devuelva 0.
    */
-   
         public static double Calcular_peso_luna(byte peso_tierra_kg) {
 
         try {
