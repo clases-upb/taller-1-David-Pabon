@@ -162,7 +162,7 @@ public class Taller1 {
     try {
         float peso_neto_kg = 0;
         float peso_neto_ton = 0;
-        final float conversion_ton_a_kg = 1000.0f;
+        final short conversion_ton_a_kg = 1000;
         peso_neto_ton = camion_carga_ton - camion_vacio_ton;
         peso_neto_kg = peso_neto_ton * conversion_ton_a_kg;
         return peso_neto_kg + " kilos - " + peso_neto_ton + " toneladas ";
